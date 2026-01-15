@@ -61,7 +61,7 @@ joblib.dump(svm_model, "svm_model.pkl")
 joblib.dump(xgb_model, "xgb_model.pkl")
 joblib.dump(vectorizer, "vectorizer.pkl")
 
-Why .pkl Files?
+**Why .pkl Files?**
 
 Fast loading
 
