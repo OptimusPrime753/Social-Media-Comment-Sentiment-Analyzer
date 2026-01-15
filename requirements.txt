@@ -1,4 +1,4 @@
-Python >= 3.8
+Python
 Streamlit
 Pandas
 NumPy
@@ -7,4 +7,3 @@ XGBoost
 Joblib
 Transformers
 PyTorch
-
