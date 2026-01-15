@@ -31,19 +31,25 @@ Ensuring fast, explainable, and cost-effective analysis
 1️⃣ Linear Support Vector Machine (SVM)
 
 Good for high-dimensional sparse text data
+
 Fast inference
+
 Strong baseline for sentiment classification
 
 2️⃣ XGBoost (Final Model)
 
 Handles non-linear decision boundaries
+
 Better performance compared to linear models
+
 Used as the final sentiment predictor
 
 3️⃣ LLM for Insights (Free & Offline)
 
 Model: google/flan-t5-small
+
 Used only for insight generation
+
 Runs locally using Hugging Face Transformers
 
 💾 Model Saving Using .pkl Files
@@ -58,11 +64,15 @@ joblib.dump(vectorizer, "vectorizer.pkl")
 Why .pkl Files?
 
 Fast loading
+
 Preserves trained weights
+
 Enables reuse without retraining
+
 Ideal for deployment
 
-🖥️ How the Streamlit App Works
+**🖥️ How the Streamlit App Works**
+
 1️⃣ Upload Dataset
 
 Supported formats:
@@ -78,12 +88,15 @@ Column name keywords (comment, tweet, review, etc.)
 3️⃣ Sentiment Classification
 
 Text is vectorized using the saved TF-IDF vectorizer
+
 Predictions are made using XGBoost
+
 Results labelled as Positive or Negative
 
 4️⃣ Sarcasm Detection
 
 Rule-based detection using common sarcasm phrases
+
 Sarcastic comments are counted and treated as negative
 
 5️⃣ AI Insight Generation
@@ -91,13 +104,18 @@ Sarcastic comments are counted and treated as negative
 The LLM generates insights such as:
 
 Overall public sentiment
+
 Public opinion on the post/video
+
 Dominant emotional tone
+
 Most frequently used offensive word
 
 6️⃣ Download Results
 
 Users can download:
+
 Classified comments (CSV)
+
 AI-generated public opinion insights (TXT)
 
