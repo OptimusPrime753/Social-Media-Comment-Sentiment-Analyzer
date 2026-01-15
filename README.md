@@ -113,6 +113,7 @@ AI-generated public opinion insights (TXT)
 ## How to run the app
 Install Dependencies
 - pip install -r requirements.txt
+
 Run Streamlit App
 - streamlit run app.py
 
