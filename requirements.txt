@@ -1,9 +1,8 @@
-Python
-Streamlit
-Pandas
-NumPy
-Scikit-learn
-XGBoost
-Joblib
-Transformers
-PyTorch
+streamlit>=1.25.0
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+joblib>=1.2.0
+transformers>=4.35.0
+torch==2.1.2
