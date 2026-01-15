@@ -1,5 +1,4 @@
 # Social Media Comment Sentiment Analyzer
-
 (Linear SVM + XGBoost + Streamlit + LLM Insights)
 
 ## 📌 Project Overview
@@ -96,7 +95,7 @@ Results labelled as Positive or Negative
 Rule-based detection using common sarcasm phrases
 Sarcastic comments are counted and treated as negative
 
-5️⃣ AI Insight Generation
+### 5️⃣ AI Insight Generation
 
 The LLM generates insights such as:
 
@@ -105,10 +104,9 @@ Public opinion on the post/video
 Dominant emotional tone
 Most frequently used offensive word
 
-6️⃣ Download Results
+### 6️⃣ Download Results
 
 Users can download:
 Classified comments (CSV)
-
 AI-generated public opinion insights (TXT)
 
