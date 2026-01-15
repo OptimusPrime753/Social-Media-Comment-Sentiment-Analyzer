@@ -1,8 +1,8 @@
-Social Media Comment Sentiment Analyzer
+**Social Media Comment Sentiment Analyzer**
 
 (Linear SVM + XGBoost + Streamlit + LLM Insights)
 
-📌 Project Overview
+**📌 Project Overview**
 
 This project is an end-to-end sentiment analysis system designed to analyze social media comments (e.g., Twitter, YouTube, Instagram).
 
@@ -17,7 +17,7 @@ Uses a free, local LLM (no API key) for qualitative insights
 Provides downloadable results
 The application is deployed using Streamlit for an interactive user interface.
 
-🎯 Problem Statement
+🎯 **Problem Statement**
 
 Social media platforms generate massive volumes of unstructured text data.
 Manually analyzing public opinion is inefficient and error-prone.
@@ -27,7 +27,7 @@ Classifying sentiment at scale
 Providing high-level insights into public opinion
 Ensuring fast, explainable, and cost-effective analysis
 
-🧠 Models Used
+**🧠 Models Used**
 1️⃣ Linear Support Vector Machine (SVM)
 
 Good for high-dimensional sparse text data
